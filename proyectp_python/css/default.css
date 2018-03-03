@@ -1,3 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 body{
+	background: #eeeeee;
+	font-family: 'Roboto', sans-serif;
+}
+.login-panel{
 	background: #fff;
+	position: absolute;
+	padding: 20px;
+	z-index: 1000;
+	border: 2px solid #e0e0e0e0;
+	left: 35%;
+	right: 35%;
+	top: 20%;
+}
+.login-panel > .form_{
+	margin-bottom: 15px;
+}
+.login-panel > .form_ > input{
+	width: 94%;
+	border-radius: 2px;
+	border: none;
+	background: #e0e0e0e0;
+	padding: 10px;
+	font-size: 18px;
+}
+.login-panel > .action > .entrar{
+	width: 100%;
+	padding: 7px;
+	font-size: 20px;
+	background: #9c27b0;
+	color: #fff;
+	border-radius: 4px;
+	border: none;
+}
+.login-panel > .action > .rec{
+	text-align: center;
 }
